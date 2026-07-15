@@ -1,0 +1,7 @@
+services:
+  csv-report-generator:
+    build: .
+    ports:
+      - "6080:6080"
+    volumes:
+      - ./data:/app/data
